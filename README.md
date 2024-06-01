@@ -1,16 +1,23 @@
-# wireframe_app
+# Mon Profil
 
-A new Flutter project.
+## Description
+Cette application Flutter est conçue pour afficher le profil d'un utilisateur avec ses informations personnelles, ses amis, ses publications, etc.
 
-## Getting Started
+## Étapes pour exécuter l'application
+1. Assurez-vous d'avoir Flutter installé sur votre système. Si ce n'est pas le cas, suivez les instructions sur [flutter.dev](https://flutter.dev/docs/get-started/install).
+2. Clonez ce dépôt sur votre machine locale.
+3. Naviguez jusqu'au répertoire du projet dans votre terminal.
+4. Exécutez la commande `flutter pub get` pour installer les dépendances.
+5. Connectez un émulateur ou un appareil physique à votre ordinateur.
+6. Exécutez la commande `flutter run` pour lancer l'application.
 
-This project is a starting point for a Flutter application.
+## Principales fonctionnalités implémentées
+- Affichage du profil utilisateur avec ses informations personnelles.
+- Affichage de la liste des amis de l'utilisateur.
+- Affichage des publications de l'utilisateur.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Fonctionnalités à venir
+- L'Authentification
+- Possibilité de modifier le profil de l'utilisateur.
+- Interaction avec les publications (likes, commentaires).
+- Possibilite d'Ajouter un amis
