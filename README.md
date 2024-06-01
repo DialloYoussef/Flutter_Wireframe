@@ -1,4 +1,4 @@
-# Mon Profil
+# Profil Facebook
 
 ## Description
 Cette application Flutter est conçue pour afficher le profil d'un utilisateur avec ses informations personnelles, ses amis, ses publications, etc.
