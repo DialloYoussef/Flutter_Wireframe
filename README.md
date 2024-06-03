@@ -21,3 +21,8 @@ Cette application Flutter est conçue pour afficher le profil d'un utilisateur a
 - Possibilité de modifier le profil de l'utilisateur.
 - Interaction avec les publications (likes, commentaires).
 - Possibilite d'Ajouter un amis
+
+![](assets/images/Screenshot/Screenshot_20240602-015614.jpg)
+![](assets/images/Screenshot/Screenshot_20240602-015630.jpg)
+![](assets/images/Screenshot/Screenshot_20240602-020345.jpg)
+![](assets/images/Screenshot/Screenshot_20240602-020359.jpg)
