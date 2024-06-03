@@ -22,7 +22,14 @@ Cette application Flutter est conçue pour afficher le profil d'un utilisateur a
 - Interaction avec les publications (likes, commentaires).
 - Possibilite d'Ajouter un amis
 
-![](assets/images/Screenshot/Screenshot_20240602-015614.jpg)
-![](assets/images/Screenshot/Screenshot_20240602-015630.jpg)
-![](assets/images/Screenshot/Screenshot_20240602-020345.jpg)
-![](assets/images/Screenshot/Screenshot_20240602-020359.jpg)
+## Appli en execution
+<table>
+  <tr>
+    <td><img src="assets/images/Screenshot/Screenshot_20240602-015614.jpg" alt="Application en execution" width="200"/></td>
+    <td><img src="assets/images/Screenshot/Screenshot_20240602-015630.jpg" alt="Application en execution" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/images/Screenshot/Screenshot_20240602-020345.jpg" alt="Application en execution" width="200"/></td>
+    <td><img src="assets/images/Screenshot/Screenshot_20240602-020359.jpg" alt="Application en execution" width="200"/></td>
+  </tr>
+</table>
