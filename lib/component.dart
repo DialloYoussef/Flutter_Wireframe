@@ -255,14 +255,14 @@ class FriendsSection extends StatelessWidget {
     'Foulai',
     'Hafiziou',
   ];
-   FriendsSection({super.key});
-  
+  FriendsSection({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(16.0),
       margin: const EdgeInsets.only(top: 8.0),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         border: Border.symmetric(
           horizontal: BorderSide(color: Colors.grey, width: 1.0),
         ),
@@ -292,12 +292,12 @@ class FriendsSection extends StatelessWidget {
                           height: 90,
                           decoration: BoxDecoration(
                             border: Border.all(
-                              color: Colors.blue,
+                              color: const Color.fromARGB(255, 54, 55, 56),
                               width: 3.0,
                             ),
                           ),
                           child: Image.asset(
-                            'assets/images/friend1.jpg',
+                            'assets/images/fleur.jpg',
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -393,12 +393,12 @@ class PostsSection extends StatelessWidget {
 
               // Contenu de la publication (Texte ou Image)
               Image.asset(
-                'assets/images/fleur.jpg', // Image de la publication
+                'assets/images/image$index.jpeg', // Image de la publication
                 height: 200, // Hauteur de l'image
                 width: double
                     .infinity, // Largeur de l'image (prend toute la largeur disponible)
                 fit: BoxFit
-                    .cover, // Redimensionnement de l'image pour remplir le conteneur
+                    .fill, // Redimensionnement de l'image pour remplir le conteneur
               ),
               const SizedBox(height: 10.0), // Espacement vertical
 
@@ -408,9 +408,9 @@ class PostsSection extends StatelessWidget {
                   padding:
                       EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
                   child: Text(
-                    'blablablablablablablabla', // Contenu texte de la publication
+                    "La passion et les rêves sont comme le temps, rien ne peut les arrêter...", // Contenu texte de la publication
                     style: TextStyle(
-                      fontSize: 14,
+                      fontSize: 11,
                       color: Colors.black,
                     ),
                     textAlign: TextAlign.center,
